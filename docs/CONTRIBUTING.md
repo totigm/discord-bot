@@ -4,7 +4,7 @@ Thank you for reading the contribution guidelines of this project. It will help 
 
 ## Issues, Feature Request & Questions
 
-Before submitting **bug reports**, **documentation improvements requests**, **feature requests**, or **questions**, please do a quick search in [Open Issues](https://github.com/totigm/ts-package-template/issues) to verify if it was already created. If there is an existing issue, add your comments to that one.
+Before submitting **bug reports**, **documentation improvements requests**, **feature requests**, or **questions**, please do a quick search in [Open Issues](https://github.com/totigm/discord-bot/issues) to verify if it was already created. If there is an existing issue, add your comments to that one.
 
 ### Writing Great Issues & Feature Requests
 
@@ -15,7 +15,7 @@ Before submitting **bug reports**, **documentation improvements requests**, **fe
 
 ### Submitting Issues
 
-1. Go to the [repository](https://github.com/totigm/ts-package-template) page, go to the [Issues section](https://github.com/totigm/ts-package-template/issues), and then click on the [New issue button](https://github.com/totigm/ts-package-template/issues/new/choose).
+1. Go to the [repository](https://github.com/totigm/discord-bot) page, go to the [Issues section](https://github.com/totigm/discord-bot/issues), and then click on the [New issue button](https://github.com/totigm/discord-bot/issues/new/choose).
 2. Choose the **template** that fits to your case.
    1. Bug
    2. Documentation improvement request
@@ -45,13 +45,13 @@ If you are going to contribute to this project, follow the next steps:
 1. Clone the repo.
 
    ```
-   git clone https://github.com/totigm/ts-package-template.git
+   git clone https://github.com/totigm/discord-bot.git
    ```
 
-2. Go to the **ts-package-template** directory and install the dependencies.
+2. Go to the **discord-bot** directory and install the dependencies.
 
    ```
-   cd ts-package-template
+   cd discord-bot
    npm install
    ```
 

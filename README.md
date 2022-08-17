@@ -1,26 +1,26 @@
-<h1 align="center">Welcome to <b>@totigm/ts-package-template</b> 👋</h1>
+<h1 align="center">Welcome to <b>@totigm/discord-bot</b> 👋</h1>
 
 <p>
-  <a href="https://www.npmjs.com/package/@totigm/ts-package-template" target="_blank">
-    <img alt="NPM version" src="https://img.shields.io/npm/v/@totigm/ts-package-template">
+  <a href="https://www.npmjs.com/package/@totigm/discord-bot" target="_blank">
+    <img alt="NPM version" src="https://img.shields.io/npm/v/@totigm/discord-bot">
   </a>
-  <a href="https://github.com/totigm/ts-package-template" target="_blank">
-    <img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-@totigm/ts--package--template-green?style=flat&logo=github">
+  <a href="https://github.com/totigm/discord-bot" target="_blank">
+    <img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-@totigm/discord--bot-green?style=flat&logo=github">
   </a>
-  <a href="https://www.npmjs.com/package/@totigm/ts-package-template" target="_blank">
-    <img alt="Downloads" src="https://img.shields.io/npm/dt/@totigm/ts-package-template" />
+  <a href="https://www.npmjs.com/package/@totigm/discord-bot" target="_blank">
+    <img alt="Downloads" src="https://img.shields.io/npm/dt/@totigm/discord-bot" />
   </a>
-  <a href="https://github.com/totigm/ts-package-template/actions/workflows/main.yml" target="_blank">
-    <img alt="CI" src="https://github.com/totigm/ts-package-template/actions/workflows/main.yml/badge.svg" />
+  <a href="https://github.com/totigm/discord-bot/actions/workflows/main.yml" target="_blank">
+    <img alt="CI" src="https://github.com/totigm/discord-bot/actions/workflows/main.yml/badge.svg" />
   </a>
-  <a href="https://github.com/totigm/ts-package-template/stargazers" target="_blank">
-    <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/totigm/ts-package-template?style=flat">
+  <a href="https://github.com/totigm/discord-bot/stargazers" target="_blank">
+    <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/totigm/discord-bot?style=flat">
   </a>
-  <a href="https://github.com/totigm/ts-package-template#readme" target="_blank">
+  <a href="https://github.com/totigm/discord-bot#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen" />
   </a>
-  <a href="https://github.com/totigm/ts-package-template/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/totigm/ts-package-template" />
+  <a href="https://github.com/totigm/discord-bot/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/totigm/discord-bot" />
   </a>
 </p>
 
@@ -30,19 +30,19 @@ This is a TypeScript template to create NPM packages
 
 ## 🔗 Quick links
 
-- [GitHub](https://github.com/totigm/ts-package-template#readme)
-- [NPM](https://www.npmjs.com/package/@totigm/ts-package-template)
+- [GitHub](https://github.com/totigm/discord-bot#readme)
+- [NPM](https://www.npmjs.com/package/@totigm/discord-bot)
 
 ## 💻 Installation
 
 ```sh
-npm i @totigm/ts-package-template
+npm i @totigm/discord-bot
 ```
 
 or
 
 ```sh
-yarn add @totigm/ts-package-template
+yarn add @totigm/discord-bot
 ```
 
 ## 🚀 Getting started
@@ -82,7 +82,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2022 [Toti Muñoz](https://github.com/totigm).<br />
-This project is [MIT](https://github.com/totigm/ts-package-template/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/totigm/discord-bot/blob/master/LICENSE) licensed.
 
 ---
 
