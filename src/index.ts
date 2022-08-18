@@ -1,6 +1,6 @@
-import MyPackage from "./package";
+import DiscordBot from "./package";
 
-module.exports = MyPackage;
-export default MyPackage;
+module.exports = DiscordBot;
+export default DiscordBot;
 
-export {} from "./types";
+export { DiscordBotOptions } from "./types";

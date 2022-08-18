@@ -18,7 +18,10 @@
         "check:fix": "npm run lint:fix && npm run prettier:fix",
         "prepublishOnly": "npm run check && npm run build"
     },
-    "dependencies": {},
+    "dependencies": {
+        "@totigm/bot-builder": "^1.0.5",
+        "discord.js": "^12.5.3"
+    },
     "devDependencies": {
         "@types/node": "^15.6.1",
         "@typescript-eslint/eslint-plugin": "^5.33.0",
