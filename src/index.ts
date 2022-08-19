@@ -1,4 +1,4 @@
-import DiscordBot from "./package";
+import DiscordBot from "./bot";
 
 module.exports = DiscordBot;
 export default DiscordBot;
