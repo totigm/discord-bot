@@ -26,10 +26,18 @@
 
 ## 📄 Introduction
 
-This is a TypeScript template to create NPM packages
+This is a library to create Discord bots. It is a Discord implementation of the [@totigm/bot-builder](https://www.npmjs.com/package/@totigm/bot-builder) package, which handles all the commands stuff behind the scenes, so you can focus on your bot's logic.
+
+> The [discord.js v12](https://v12.discordjs.guide) library is being used.
 
 ## 🔗 Quick links
 
+- [Reference documentation](./docs/reference.md)
+- [Options](#⚙️-options)
+- [Set up a discord bot](https://v12.discordjs.guide/preparations/setting-up-a-bot-application.html)
+- [Discord.js v12 docs](https://v12.discordjs.guide)
+- [Bot builder](https://www.npmjs.com/package/@totigm/bot-builder)
+- [WhatsApp bot](https://www.npmjs.com/package/@totigm/whatsapp-bot)
 - [GitHub](https://github.com/totigm/discord-bot#readme)
 - [NPM](https://www.npmjs.com/package/@totigm/discord-bot)
 
@@ -47,9 +55,39 @@ yarn add @totigm/discord-bot
 
 ## 🚀 Getting started
 
+Check [this tutorial](https://v12.discordjs.guide/preparations/setting-up-a-bot-application.html) on how to create a discord bot.
+
+Start adding commands to your bot by checking the [reference documentation](./docs/reference.md).
 
 ## 🤖 Example usage
 
+```ts
+import DiscordBot from "@totigm/discord-bot";
+
+const bot = new DiscordBot("YOUR_DISCORD_BOT_TOKEN");
+
+bot.addCommand("hey", (message) => `Hey ${message.author.username}! How are you doing?`, {
+    description: "Say hey",
+    explanation: "The bot will say hey to the user using their Discord's name",
+    example: {
+        output: "Hey Toti! How are you doing?",
+    },
+});
+```
+
+The previous code will create a bot that works like this:
+
+![bot conversation](https://user-images.githubusercontent.com/64804554/185241227-632860a8-9039-4deb-86a6-73de12fc4645.png)
+
+## ⚙️ Options
+
+When you create a bot, you can pass an options object to customize it. Check its [options](./docs/options.md) documentation for more information.
+
+```ts
+const options = { ... };
+
+const bot = new DiscordBot("YOUR_BOTS_TOKEN", options);
+```
 
 ## 👤 Author
 
