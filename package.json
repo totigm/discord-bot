@@ -1,7 +1,7 @@
 {
     "name": "@totigm/discord-bot",
     "version": "1.0.0",
-    "description": "This is a TypeScript template to create NPM packages",
+    "description": "This is a library to create discord bots. It handles all the commands stuff behind the scenes, so you can focus on your bot's logic.",
     "main": "dist/index.js",
     "bin": "dist/index.js",
     "types": "dist/index.d.ts",
