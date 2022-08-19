@@ -77,7 +77,7 @@ bot.addCommand("hey", (message) => `Hey ${message.author.username}! How are you 
 
 The previous code will create a bot that works like this:
 
-![bot conversation](https://user-images.githubusercontent.com/64804554/185241227-632860a8-9039-4deb-86a6-73de12fc4645.png)
+![bot conversation](https://user-images.githubusercontent.com/64804554/185551989-2beacc0e-8026-47fa-8f12-2820ef412a86.png)
 
 ## ⚙️ Options
 
