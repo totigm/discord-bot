@@ -19,7 +19,7 @@
         "prepublishOnly": "npm run check && npm run build"
     },
     "dependencies": {
-        "@totigm/bot-builder": "^1.1.0",
+        "@totigm/bot-builder": "^1.2.0",
         "discord.js": "^12.5.3",
         "tslib": "^2.4.0"
     },
